@@ -17,8 +17,6 @@ from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score, classification_report
 import io
 
-pip install streamlit
-
 label_encoders = {}
 scaler = StandardScaler()
 
